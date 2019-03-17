@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import BioContent from "./BioContent";
 
 class BioContainer extends Component {
   render() {
-    return <h2>BioContainer</h2>;
+    return <BioContent />;
   }
 }
 

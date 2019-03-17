@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import BioContainer from "./BioContainer";
 import WorkContainer from "./WorkContainer";
-import SocialContainer from "./SocialContainer";
+import NavBar from "./NavBar";
 
 class ContentContainer extends Component {
   render() {
@@ -14,7 +14,7 @@ class ContentContainer extends Component {
           <WorkContainer />
         </div>
         <div className="container">
-          <SocialContainer />
+          <NavBar />
         </div>
       </div>
     );

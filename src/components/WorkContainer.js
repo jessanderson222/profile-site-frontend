@@ -1,8 +1,17 @@
 import React, { Component } from "react";
+import OpenHouse from "./OpenHouse";
+import JetSettr from "./JetSettr";
+import YellowPages from "./YellowPages";
 
 class WorkContainer extends Component {
   render() {
-    return <h3>WorkContainer</h3>;
+    return (
+      <div>
+        <OpenHouse />
+        <JetSettr />
+        <YellowPages />
+      </div>
+    );
   }
 }
 

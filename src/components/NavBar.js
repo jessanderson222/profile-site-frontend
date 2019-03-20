@@ -29,7 +29,13 @@ class SocialContainer extends Component {
           </Button>{" "}
         </div>
         <br />
-        <h4 className="work-nav" id="work-nav-div">
+        <h4 className="nav-text" id="hello">
+          Hello
+        </h4>
+        <h4 className="nav-text" id="about-me">
+          About Me
+        </h4>
+        <h4 className="nav-text" id="work">
           Work
         </h4>
       </div>

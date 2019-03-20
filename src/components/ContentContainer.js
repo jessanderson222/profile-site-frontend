@@ -6,15 +6,17 @@ import NavBar from "./NavBar";
 class ContentContainer extends Component {
   render() {
     return (
-      <div id="content-div">
-        <div className="container">
-          <BioContainer />
-        </div>
-        <div className="container">
-          <WorkContainer />
-        </div>
+      <div className="content">
         <div className="container">
           <NavBar />
+        </div>
+        <div id="main">
+          <div className="container">
+            <BioContainer />
+          </div>
+          <div className="container">
+            <WorkContainer />
+          </div>
         </div>
       </div>
     );

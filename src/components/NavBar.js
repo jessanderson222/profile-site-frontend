@@ -5,23 +5,33 @@ class SocialContainer extends Component {
   render() {
     return (
       <div className="navbar">
-        <Button icon className="social">
-          <Icon name="twitter" />
-        </Button>{" "}
+        <div className="social">
+          <Button icon>
+            <Icon name="twitter" />
+          </Button>{" "}
+        </div>
         <br />
-        <Button icon className="social">
-          <Icon name="linkedin" />
-        </Button>{" "}
+        <div className="social">
+          <Button icon>
+            <Icon name="linkedin" />
+          </Button>{" "}
+        </div>
         <br />
-        <Button icon className="social">
-          <Icon name="github" />
-        </Button>{" "}
+        <div className="social">
+          <Button icon>
+            <Icon name="github" />
+          </Button>
+        </div>
         <br />
-        <Button icon className="social">
-          <Icon name="envelope" />
-        </Button>{" "}
+        <div className="social">
+          <Button icon>
+            <Icon name="envelope" />
+          </Button>{" "}
+        </div>
         <br />
-        <h4 className="nav-text">Work</h4>
+        <h4 className="work-nav" id="work-nav-div">
+          Work
+        </h4>
       </div>
     );
   }

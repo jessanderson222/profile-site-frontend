@@ -3,6 +3,8 @@ import ContentContainer from "./ContentContainer";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
+import Hello from "./Hello";
+import AboutMe from "./AboutMe";
 
 class App extends Component {
   render() {
@@ -33,6 +35,8 @@ class App extends Component {
               return null;
             }}
           />
+          <Route path="/hello" render={<Hello />} />
+          <Route path="/about" render={<AboutMe />} />
         </Switch>
       </div>
     );

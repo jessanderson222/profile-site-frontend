@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BioContainer from "./BioContainer";
+import Hello from "./Hello";
 import WorkContainer from "./WorkContainer";
 
 class ContentContainer extends Component {
@@ -9,7 +9,7 @@ class ContentContainer extends Component {
         <div className="container" />
         <div id="main">
           <div className="container">
-            <BioContainer />
+            <Hello />
           </div>
           <div className="container">
             <WorkContainer />

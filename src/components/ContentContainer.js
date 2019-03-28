@@ -8,9 +8,7 @@ class ContentContainer extends Component {
       <div className="content">
         <div className="container" />
         <div id="main">
-          <div className="container">
-            <Hello />
-          </div>
+          <div className="container">{/* <Hello /> */}</div>
           <div className="container">
             <WorkContainer />
           </div>

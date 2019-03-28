@@ -70,13 +70,19 @@ class SocialContainer extends Component {
           </div>
           <br />
           <h4 className="nav-text" id="hello">
-            <a href="/">Hello</a>
+            <a className="link" href="/">
+              Hello
+            </a>
           </h4>
           <h4 className="nav-text" id="about-me">
-            <a href="/about">About Me</a>
+            <a className="link" href="/about">
+              About Me
+            </a>
           </h4>
           <h4 className="nav-text" id="work">
-            <a href="/work">Work</a>
+            <a className="link" href="/work">
+              Work
+            </a>
           </h4>
         </div>
       );

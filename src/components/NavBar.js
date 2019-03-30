@@ -79,11 +79,24 @@ class SocialContainer extends Component {
               About Me
             </a>
           </h4>
-          <h4 className="nav-text" id="work">
+          <div class="collapsible-menu">
+            <input type="checkbox" id="menu" />
+          </div>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">
+              Dropdown
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          {/* <h4 className="nav-text" id="work">
             <a className="link" href="/work">
               Work
             </a>
-          </h4>
+          </h4> */}
         </div>
       );
     }

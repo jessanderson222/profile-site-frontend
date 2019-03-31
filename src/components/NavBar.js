@@ -12,7 +12,7 @@ class SocialContainer extends Component {
   handleTwitterButtonClick = e => {
     e.preventDefault();
     this.setState({
-      buttonClick: !this.state.buttonClick
+      twitterButtonClick: !this.state.twitterButtonClick
     });
   };
 
@@ -48,7 +48,11 @@ class SocialContainer extends Component {
           </div>
           <br />
           <div className="social">
-            <Button icon onClick={this.handleLinkedinButtonClick}>
+            <Button
+              name="linkedinButtonClick"
+              icon
+              onClick={this.handleLinkedinButtonClick}
+            >
               <Icon name="linkedin" />
             </Button>{" "}
           </div>
@@ -66,14 +70,33 @@ class SocialContainer extends Component {
           </div>
           <br />
           <h4 className="nav-text" id="hello">
-            Hello
+            <a className="link" href="/">
+              Hello
+            </a>
           </h4>
           <h4 className="nav-text" id="about-me">
-            About Me
+            <a className="link" href="/about">
+              About Me
+            </a>
           </h4>
-          <h4 className="nav-text" id="work">
-            Work
-          </h4>
+          <div class="collapsible-menu">
+            <input type="checkbox" id="menu" />
+          </div>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">
+              Dropdown
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          {/* <h4 className="nav-text" id="work">
+            <a className="link" href="/work">
+              Work
+            </a>
+          </h4> */}
         </div>
       );
     }

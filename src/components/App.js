@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import ContentContainer from "./ContentContainer";
+import WorkContainer from "./WorkContainer";
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
+import { connect } from "react-redux";
+import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from "./NavBar";
 import Hello from "./Hello";
 import AboutMe from "./AboutMe";
@@ -11,7 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <ContentContainer />
 
         <Switch>
           <Route
@@ -35,12 +35,14 @@ class App extends Component {
               return null;
             }}
           />
-          <Route path="/hello" render={<Hello />} />
-          <Route path="/about" render={<AboutMe />} />
+
+          <Route path="/about" render={() => <AboutMe />} />
+          <Route path="/work" render={() => <WorkContainer />} />
+          <Route path="/" render={() => <Hello />} />
         </Switch>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

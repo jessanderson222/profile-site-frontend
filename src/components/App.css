@@ -21,15 +21,24 @@
   }
 }
 
+/* .navbar-parent {
+  position: relative;
+} */
+
 .navbar {
   height: 100%; /* 100% Full-height */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 20px;
   width: 70px;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 40px; /* Place content 60px from the top */
+  padding-top: 40px; /* Place content 60px from the top
+
+  /* position: absolute;
+  text-align: left;
+  left: 3%;
+  top: 60%; */
 }
 
 .social {
@@ -49,7 +58,15 @@
 }
 
 .hello {
-  text-align: right;
-  margin-right: 100px;
-  bottom: 10px;
+  /* text-align: right;
+  margin-right: 100px;r
+  bottom: 10px; */
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  text-align: left;
+  top: 80%;
+  left: 20%;
 }

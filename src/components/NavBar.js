@@ -40,51 +40,53 @@ class SocialContainer extends Component {
       return <Redirect to="/github" target="/blank" />;
     } else {
       return (
-        <div className="navbar">
-          <div className="social">
-            <Button icon onClick={this.handleTwitterButtonClick}>
-              <Icon name="twitter" />
-            </Button>{" "}
-          </div>
-          <br />
-          <div className="social">
-            <Button
-              name="linkedinButtonClick"
-              icon
-              onClick={this.handleLinkedinButtonClick}
-            >
-              <Icon name="linkedin" />
-            </Button>{" "}
-          </div>
-          <br />
-          <div className="social" onClick={this.handleGithubButtonClick}>
-            <Button icon>
-              <Icon name="github" />
-            </Button>
-          </div>
-          <br />
-          <div className="social">
-            <Button icon>
-              <Icon name="envelope" />
-            </Button>{" "}
-          </div>
-          <br />
-          <h4 className="nav-text" id="hello">
-            <a className="link" href="/">
-              Hello
-            </a>
-          </h4>
-          <h4 className="nav-text" id="about-me">
-            <a className="link" href="/about">
-              About Me
-            </a>
-          </h4>
+        <div className="navbar-parent">
+          <div className="navbar">
+            <div className="social">
+              <Button icon onClick={this.handleTwitterButtonClick}>
+                <Icon name="twitter" />
+              </Button>{" "}
+            </div>
+            <br />
+            <div className="social">
+              <Button
+                name="linkedinButtonClick"
+                icon
+                onClick={this.handleLinkedinButtonClick}
+              >
+                <Icon name="linkedin" />
+              </Button>{" "}
+            </div>
+            <br />
+            <div className="social" onClick={this.handleGithubButtonClick}>
+              <Button icon>
+                <Icon name="github" />
+              </Button>
+            </div>
+            <br />
+            <div className="social">
+              <Button icon>
+                <Icon name="envelope" />
+              </Button>{" "}
+            </div>
+            <br />
+            <h4 className="nav-text" id="hello">
+              <a className="link" href="/">
+                Hello
+              </a>
+            </h4>
+            <h4 className="nav-text" id="about-me">
+              <a className="link" href="/about">
+                About Me
+              </a>
+            </h4>
 
-          <h4 className="nav-text" id="work">
-            <a className="link" href="/work">
-              Work
-            </a>
-          </h4>
+            <h4 className="nav-text" id="work">
+              <a className="link" href="/work">
+                Work
+              </a>
+            </h4>
+          </div>
         </div>
       );
     }

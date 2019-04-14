@@ -71,3 +71,9 @@
   left: 20%;
   font-size: 400%;
 }
+
+.openHouse {
+  max-width: 70%;
+  height: auto;
+  margin-left: 10%;
+}

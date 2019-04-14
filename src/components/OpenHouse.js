@@ -6,7 +6,7 @@ class OpenHouse extends Component {
     return (
       <div>
         <h1>OpenHouse</h1>
-        <img src={gif} alt="loading..." />
+        <img className="openHouse" src={gif} alt="loading..." />
       </div>
     );
   }

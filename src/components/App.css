@@ -64,16 +64,65 @@
   position: relative;
 }
 
+.about-me {
+  position: relative;
+}
+
+.about-text {
+  position: absolute;
+  text-align: left;
+  top: 10%;
+  left: 20%;
+  font-size: 400%;
+}
+
 .text {
   position: absolute;
   text-align: left;
-  top: 80%;
+  top: 90%;
   left: 20%;
   font-size: 400%;
 }
 
 .openHouse {
+  position: relative;
+}
+
+.project-name {
+  position: absolute;
+  text-align: left;
+  left: 20%;
+  top: 20%;
+  font-size: 400%;
+}
+
+.project-description {
+  position: absolute;
+  text-align: left;
+  top: 40%;
+  left: 20%;
+  font-size: 140%;
+  right: 20%;
+}
+
+.technologies-used {
+  position: absolute;
+  text-align: left;
+  left: 80%;
+  top: 25%;
+}
+
+.gitHub {
+  position: absolute;
+  text-align: left;
+  left: 80%;
+  top: 50%;
+}
+
+/* .openHouse-gif {
+  position: absolute;
   max-width: 70%;
   height: auto;
   margin-left: 10%;
-}
+  top: 80%;
+} */

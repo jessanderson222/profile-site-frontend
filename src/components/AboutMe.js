@@ -4,7 +4,20 @@ class AboutMe extends Component {
   render() {
     return (
       <div classname="about-me">
-        <h1>me :)</h1>
+        <p className="about-text">
+          With a background in advertising, <br />
+          I bring an ability to execute <br />
+          and communicate complex technical ideas.
+          <br />
+          <br />
+          Illustrator.
+          <br />
+          Skier.
+          <br />
+          Baker.
+          <br />
+          Museum enthusiast.
+        </p>
       </div>
     );
   }

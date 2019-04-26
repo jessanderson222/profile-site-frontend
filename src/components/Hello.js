@@ -7,7 +7,9 @@ class Hello extends Component {
         <p className="text">
           Hello.
           <br />
-          It's Jessie Anderson
+          I'm Jessie Anderson, <br />
+          a web developer <br />
+          based in New York.
         </p>
       </div>
     );

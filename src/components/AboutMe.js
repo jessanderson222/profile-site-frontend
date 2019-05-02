@@ -9,14 +9,7 @@ class AboutMe extends Component {
           I bring an ability to execute <br />
           and communicate complex technical ideas.
           <br />
-          <br />
-          Illustrator.
-          <br />
-          Skier.
-          <br />
-          Baker.
-          <br />
-          Museum enthusiast.
+          <br />I am also an illustrator, baker, skiier, and museum enthusiast.
         </p>
       </div>
     );

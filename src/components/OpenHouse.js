@@ -4,7 +4,7 @@ import gif from "./gif.gif";
 class OpenHouse extends Component {
   render() {
     return (
-      <div className="openHouse">
+      <div className="projectTitle">
         <h1 className="project-name">OpenHouse</h1>
         <br />
         <p className="project-description">
@@ -20,7 +20,8 @@ class OpenHouse extends Component {
           Ruby on Rails <br />
           PostgreSQL <br />
           CSS <br />
-          HTML
+          HTML <br />
+          Material UI
         </p>
         <p className="gitHub">
           <h4>GitHub</h4>

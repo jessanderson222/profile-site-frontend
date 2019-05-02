@@ -84,9 +84,10 @@
   font-size: 400%;
 }
 
-.openHouse {
+/* This code is used in the OpenHouse and JetSettr containers in the work container */
+.projectTitle {
   position: relative;
-  height: 1000px;
+  height: 800px;
 }
 
 .project-name {
@@ -117,7 +118,7 @@
   position: absolute;
   text-align: left;
   left: 80%;
-  top: 28%;
+  top: 32%;
 }
 
 .openHouse-gif {

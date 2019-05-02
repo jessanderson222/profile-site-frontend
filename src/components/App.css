@@ -86,20 +86,21 @@
 
 .openHouse {
   position: relative;
+  height: 1000px;
 }
 
 .project-name {
   position: absolute;
   text-align: left;
   left: 20%;
-  top: 20%;
+  top: 8%;
   font-size: 400%;
 }
 
 .project-description {
   position: absolute;
   text-align: left;
-  top: 40%;
+  top: 18%;
   left: 20%;
   font-size: 140%;
   right: 20%;
@@ -109,20 +110,21 @@
   position: absolute;
   text-align: left;
   left: 80%;
-  top: 25%;
+  top: 10%;
 }
 
 .gitHub {
   position: absolute;
   text-align: left;
   left: 80%;
-  top: 50%;
+  top: 28%;
 }
 
-/* .openHouse-gif {
-  position: absolute;
+.openHouse-gif {
+  position: relative;
   max-width: 70%;
   height: auto;
   margin-left: 10%;
-  top: 80%;
-} */
+  top: 350px;
+  z-index: -3;
+}

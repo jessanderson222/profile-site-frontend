@@ -57,31 +57,43 @@
   color: black;
 }
 
+/* For the Hello page */
 .hello {
   /* text-align: right;
   margin-right: 100px;r
   bottom: 10px; */
   position: relative;
+  height: 800px;
 }
 
-.about-me {
-  position: relative;
-}
-
-.about-text {
+.hello-title {
   position: absolute;
   text-align: left;
-  top: 10%;
+  top: 8%;
   left: 20%;
-  font-size: 400%;
+  font-size: 1000%;
 }
 
 .text {
   position: absolute;
   text-align: left;
-  top: 90%;
+  top: 30%;
   left: 20%;
-  font-size: 400%;
+  font-size: 300%;
+}
+
+/* For the About Me page */
+.about-me {
+  position: relative;
+  height: 800px;
+}
+
+.about-text {
+  position: absolute;
+  text-align: left;
+  top: 14%;
+  left: 20%;
+  font-size: 300%;
 }
 
 /* This code is used in the OpenHouse and JetSettr containers in the work container */

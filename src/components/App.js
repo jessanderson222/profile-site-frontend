@@ -35,7 +35,46 @@ class App extends Component {
               return null;
             }}
           />
-
+          <Route
+            path="/openhousefrontend"
+            component={() => {
+              window.location =
+                "https://github.com/jessanderson222/open_house_frontend";
+              return null;
+            }}
+          />
+          <Route
+            path="/openhousebackend"
+            component={() => {
+              window.location =
+                "https://github.com/jessanderson222/openHouse_backend";
+              return null;
+            }}
+          />
+          <Route
+            path="/jetsettrbackend"
+            component={() => {
+              window.location =
+                "https://github.com/jessanderson222/jetsettr-backend";
+              return null;
+            }}
+          />
+          <Route
+            path="/jetsettrfrontend"
+            component={() => {
+              window.location =
+                "https://github.com/jessanderson222/jetsettr_frontend";
+              return null;
+            }}
+          />
+          <Route
+            path="/yellowpages"
+            component={() => {
+              window.location =
+                "https://github.com/jessanderson222/mod-2-project";
+              return null;
+            }}
+          />
           <Route path="/about" render={() => <AboutMe />} />
           <Route path="/work" render={() => <WorkContainer />} />
           <Route path="/" render={() => <Hello />} />

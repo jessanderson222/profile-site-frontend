@@ -21,7 +21,7 @@ class OpenHouse extends Component {
           PostgreSQL <br />
           CSS <br />
           HTML <br />
-          Material UI
+          Authentication
         </p>
         <p className="gitHub">
           <h4>GitHub</h4>

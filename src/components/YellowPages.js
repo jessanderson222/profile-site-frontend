@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import yellowpages from "./yellowpages.gif";
+import { Route, Switch, withRouter } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 
 class YellowPages extends Component {
+  handleClick = e => {
+    e.preventDefault();
+    this.props.history.push("/yellowpages");
+  };
+
   render() {
     return (
       <div>
@@ -19,7 +26,7 @@ class YellowPages extends Component {
             Bootstrap
           </p>
           <p className="gitHub">
-            <h4>GitHub</h4>
+            <h4 onClick={this.handleClick}>GitHub</h4>
           </p>
           <img className="openHouse-gif" src={yellowpages} alt="loading..." />
         </div>
@@ -28,4 +35,4 @@ class YellowPages extends Component {
   }
 }
 
-export default YellowPages;
+export default withRouter(YellowPages);

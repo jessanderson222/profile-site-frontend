@@ -1,7 +1,18 @@
 import React, { Component } from "react";
 import jetsettr from "./jetsettr.gif";
+import { Redirect } from "react-router-dom";
+import { Route, Switch, withRouter } from "react-router-dom";
 
 class JetSettr extends Component {
+  handleFrontEndClick = e => {
+    e.preventDefault();
+    this.props.history.push("/jetsettrfrontend");
+  };
+  handleBackEndClick = e => {
+    e.preventDefault();
+    this.props.history.push("/jetsettrbackend");
+  };
+
   render() {
     return (
       <div>
@@ -23,8 +34,8 @@ class JetSettr extends Component {
           </p>
           <p className="gitHub">
             <h4>GitHub</h4>
-            Front End <br />
-            Back end
+            <p onClick={this.handleFrontEndClick}>Front End</p>
+            <p onClick={this.handleBackEndClick}>Back end</p>
           </p>
           <img className="openHouse-gif" src={jetsettr} alt="loading..." />
         </div>
@@ -33,4 +44,4 @@ class JetSettr extends Component {
   }
 }
 
-export default JetSettr;
+export default withRouter(JetSettr);

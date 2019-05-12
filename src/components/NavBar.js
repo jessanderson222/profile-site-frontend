@@ -72,6 +72,15 @@ class SocialContainer extends Component {
               Work
             </a>
           </h4>
+          <p className="nav-subhead">
+            <a className="link" href="/openhouse">
+              OpenHouse
+            </a>
+          </p>
+
+          <p className="nav-subhead">JetSettr</p>
+
+          <p className="nav-subhead">The Yellow Pages</p>
         </div>
       </div>
     );

@@ -6,6 +6,7 @@ import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from "./NavBar";
 import Hello from "./Hello";
 import AboutMe from "./AboutMe";
+import OpenHouse from "./OpenHouse";
 
 class App extends Component {
   render() {
@@ -77,6 +78,7 @@ class App extends Component {
           />
           <Route path="/about" render={() => <AboutMe />} />
           <Route path="/work" render={() => <WorkContainer />} />
+          <Route path="/openhouse" render={() => <OpenHouse />} />
           <Route path="/" render={() => <Hello />} />
         </Switch>
       </div>

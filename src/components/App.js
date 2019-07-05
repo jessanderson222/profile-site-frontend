@@ -7,6 +7,8 @@ import NavBar from "./NavBar";
 import Hello from "./Hello";
 import AboutMe from "./AboutMe";
 import OpenHouse from "./OpenHouse";
+import JetSettr from "./JetSettr";
+import YellowPages from "./YellowPages";
 
 class App extends Component {
   render() {
@@ -33,6 +35,13 @@ class App extends Component {
             path="/github"
             component={() => {
               window.location = "https://github.com/jessanderson222";
+              return null;
+            }}
+          />
+          <Route
+            path="/medium"
+            component={() => {
+              window.location = "https://medium.com/@jessanderson222";
               return null;
             }}
           />
@@ -79,6 +88,8 @@ class App extends Component {
           <Route path="/about" render={() => <AboutMe />} />
           <Route path="/work" render={() => <WorkContainer />} />
           <Route path="/openhouse" render={() => <OpenHouse />} />
+          <Route path="/jetsettr" render={() => <JetSettr />} />
+          <Route path="/theyellowpages" render={() => <YellowPages />} />
           <Route path="/" render={() => <Hello />} />
         </Switch>
       </div>

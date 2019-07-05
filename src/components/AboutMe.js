@@ -5,9 +5,8 @@ class AboutMe extends Component {
     return (
       <div classname="about-me">
         <p className="about-text">
-          With a background in advertising, <br />
-          I bring an ability to execute <br />
-          and communicate complex technical ideas.
+          Currently an engineering intern at VTS, helping to build a leading
+          commercial real estate software.
           <br />
           <br />I am also an illustrator, baker, skiier, and museum enthusiast.
         </p>

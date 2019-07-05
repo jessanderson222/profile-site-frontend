@@ -22,6 +22,12 @@ class SocialContainer extends Component {
     this.props.history.push("/github");
   };
 
+  handleMediumButtonClick = e => {
+    e.preventDefault();
+
+    this.props.history.push("/medium");
+  };
+
   render() {
     console.log(this.state);
 
@@ -50,9 +56,9 @@ class SocialContainer extends Component {
             </Button>
           </div>
           <br />
-          <div className="social">
+          <div className="social" onClick={this.handleMediumButtonClick}>
             <Button icon>
-              <Icon name="envelope" />
+              <Icon name="medium" />
             </Button>{" "}
           </div>
           <br />
@@ -78,9 +84,17 @@ class SocialContainer extends Component {
             </a>
           </p>
 
-          <p className="nav-subhead">JetSettr</p>
+          <p className="nav-subhead">
+            <a className="link" href="/jetsettr">
+              JetSettr
+            </a>
+          </p>
 
-          <p className="nav-subhead">The Yellow Pages</p>
+          <p className="nav-subhead">
+            <a className="link" href="/theyellowpages">
+              The Yellow Pages
+            </a>
+          </p>
         </div>
       </div>
     );

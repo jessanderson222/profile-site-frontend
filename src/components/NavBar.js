@@ -72,7 +72,11 @@ class SocialContainer extends Component {
               About Me
             </a>
           </h4>
-
+          <h4 className="nav-text" id="resume">
+            <a className="link" href="/resume">
+              Resume
+            </a>
+          </h4>
           <h4 className="nav-text" id="work">
             <a className="link" href="/work">
               Work
@@ -83,13 +87,11 @@ class SocialContainer extends Component {
               OpenHouse
             </a>
           </p>
-
           <p className="nav-subhead">
             <a className="link" href="/jetsettr">
               JetSettr
             </a>
           </p>
-
           <p className="nav-subhead">
             <a className="link" href="/theyellowpages">
               The Yellow Pages

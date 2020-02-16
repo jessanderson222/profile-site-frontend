@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import OpenHouse from "./OpenHouse";
 import JetSettr from "./JetSettr";
 import YellowPages from "./YellowPages";
-import AboutMe from "./AboutMe";
-import Hello from "./Hello";
 
 class WorkContainer extends Component {
   render() {

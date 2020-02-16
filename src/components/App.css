@@ -63,10 +63,12 @@
 }
 
 /* For the Hello page */
+
+.contentDiv {
+  position: absolute;
+}
+
 .hello {
-  /* text-align: right;
-  margin-right: 100px;r
-  bottom: 10px; */
   position: relative;
   height: 800px;
 }
@@ -74,32 +76,36 @@
 .hello-title {
   position: absolute;
   text-align: left;
-  top: 8%;
+  top: 20%;
   left: 20%;
-  font-size: 1000%;
+  font-size: 800%;
+  font-weight: 600;
 }
 
 .text {
   position: absolute;
   text-align: left;
-  top: 30%;
+  top: 40%;
   left: 20%;
   font-size: 300%;
+  font-weight: 600;
 }
 
 /* For the About Me page */
-.about-me {
+/* .about-me {
   position: relative;
   height: 800px;
-}
+  font-weight: 600;
+} */
 
 .about-text {
-  position: absolute;
+  /* position: absolute; */
   text-align: left;
-  top: 14%;
-  left: 20%;
+  /* top: 80%; */
+  margin-left: 20%;
   font-size: 300%;
   line-height: 1.25;
+  font-weight: 600;
 }
 
 /* This code is used in the OpenHouse and JetSettr containers in the work container */

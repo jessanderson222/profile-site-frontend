@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import WorkContainer from "./WorkContainer";
 import "./App.css";
-import { connect } from "react-redux";
 import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from "./NavBar";
-import Hello from "./Hello";
+import ContentContainer from "./ContentContainer";
 import AboutMe from "./AboutMe";
 import OpenHouse from "./OpenHouse";
 import JetSettr from "./JetSettr";
@@ -92,7 +91,7 @@ class App extends Component {
           <Route path="/openhouse" render={() => <OpenHouse />} />
           <Route path="/jetsettr" render={() => <JetSettr />} />
           <Route path="/theyellowpages" render={() => <YellowPages />} />
-          <Route path="/" render={() => <Hello />} />
+          <Route path="/" render={() => <ContentContainer />} />
         </Switch>
       </div>
     );

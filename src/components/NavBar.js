@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Button, Icon } from "semantic-ui-react";
-import { Redirect } from "react-router-dom";
-import { Route, Switch, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class SocialContainer extends Component {
   handleTwitterButtonClick = e => {
@@ -72,11 +71,6 @@ class SocialContainer extends Component {
               About Me
             </a>
           </h4>
-          <h4 className="nav-text" id="resume">
-            <a className="link" href="/resume">
-              Resume
-            </a>
-          </h4>
           <h4 className="nav-text" id="work">
             <a className="link" href="/work">
               Work
@@ -97,6 +91,11 @@ class SocialContainer extends Component {
               The Yellow Pages
             </a>
           </p>
+          <h4 className="nav-text" id="resume">
+            <a className="link" href="/resume">
+              Resume
+            </a>
+          </h4>
         </div>
       </div>
     );

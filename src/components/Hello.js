@@ -5,9 +5,9 @@ class Hello extends Component {
     return (
       <div className="hello">
         <p className="hello-title">Hello.</p>
-        <br />
         <p className="text">
-          I'm Jessie Anderson, a web developer based in New York.
+          I'm Jessie Anderson, a software engineer based in NYC. Currently at
+          VTS, a unicorn company shaping the future of proptech.
         </p>
       </div>
     );

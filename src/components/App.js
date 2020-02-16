@@ -84,6 +84,13 @@ class App extends Component {
               return null;
             }}
           />
+          <Route
+            path="/liveyellowpages"
+            component={() => {
+              window.location = "http://the-yellow-pages.herokuapp.com/";
+              return null;
+            }}
+          />
           <Route path="/resume" render={() => <Resume />} />
           <Route path="/work" render={() => <WorkContainer />} />
           <Route path="/openhouse" render={() => <OpenHouse />} />

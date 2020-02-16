@@ -4,9 +4,14 @@ import { Route, Switch, withRouter } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 
 class YellowPages extends Component {
-  handleClick = e => {
+  handleGithubClick = e => {
     e.preventDefault();
     this.props.history.push("/yellowpages");
+  };
+
+  handleLiveClick = e => {
+    e.preventDefault();
+    this.props.history.push("/liveyellowpages");
   };
 
   render() {
@@ -26,7 +31,8 @@ class YellowPages extends Component {
             Bootstrap
           </p>
           <p className="gitHub">
-            <h4 onClick={this.handleClick}>GitHub</h4>
+            <h4 onClick={this.handleLiveClick}>Live</h4>
+            <h4 onClick={this.handleGithubClick}>GitHub</h4>
           </p>
           <img className="openHouse-gif" src={yellowpages} alt="loading..." />
         </div>

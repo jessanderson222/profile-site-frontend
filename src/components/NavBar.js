@@ -66,11 +66,6 @@ class SocialContainer extends Component {
               Hello
             </a>
           </h4>
-          <h4 className="nav-text" id="about-me">
-            <a className="link" href="/about">
-              About Me
-            </a>
-          </h4>
           <h4 className="nav-text" id="work">
             <a className="link" href="/work">
               Work
@@ -91,11 +86,11 @@ class SocialContainer extends Component {
               The Yellow Pages
             </a>
           </p>
-          <h4 className="nav-text" id="resume">
+          {/* <h4 className="nav-text" id="resume">
             <a className="link" href="/resume">
               Resume
             </a>
-          </h4>
+          </h4> */}
         </div>
       </div>
     );

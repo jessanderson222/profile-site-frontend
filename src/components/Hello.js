@@ -5,10 +5,16 @@ class Hello extends Component {
     return (
       <div className="hello">
         <p className="hello-title">Hello.</p>
-        <p className="text">
-          I'm Jessie Anderson, a software engineer based in NYC. Currently at
-          VTS, a unicorn company shaping the future of proptech.
-        </p>
+        <div className="text">
+          <p>
+            I'm Jessie Anderson, a software engineer based out of New York City.
+          </p>
+          <p>
+            I am currently working at VTS, a unicorn company shaping the future
+            of proptech.
+          </p>
+          <p>I am also an illustrator, baker, skiier, and museum enthusiast.</p>
+        </div>
       </div>
     );
   }

@@ -70,13 +70,13 @@
 
 .hello {
   position: relative;
-  height: 800px;
+  height: 1300px;
 }
 
 .hello-title {
   position: absolute;
   text-align: left;
-  top: 20%;
+  top: 25%;
   left: 20%;
   font-size: 800%;
   font-weight: 600;
@@ -85,26 +85,18 @@
 .text {
   position: absolute;
   text-align: left;
-  top: 40%;
+  top: 36%;
   left: 20%;
   font-size: 300%;
   font-weight: 600;
 }
 
-/* For the About Me page */
-/* .about-me {
-  position: relative;
-  height: 800px;
-  font-weight: 600;
-} */
-
-.about-text {
-  /* position: absolute; */
+.moreText {
+  position: absolute;
   text-align: left;
-  /* top: 80%; */
-  margin-left: 20%;
+  top: 73%;
+  left: 20%;
   font-size: 300%;
-  line-height: 1.25;
   font-weight: 600;
 }
 
@@ -158,9 +150,11 @@
 
 .resume {
   position: relative;
-  max-width: 70%;
   height: auto;
   margin-left: 20%;
   top: 20px;
   z-index: -3;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }

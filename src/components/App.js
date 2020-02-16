@@ -4,7 +4,6 @@ import "./App.css";
 import { Route, Switch, withRouter } from "react-router-dom";
 import NavBar from "./NavBar";
 import ContentContainer from "./ContentContainer";
-import AboutMe from "./AboutMe";
 import OpenHouse from "./OpenHouse";
 import JetSettr from "./JetSettr";
 import YellowPages from "./YellowPages";
@@ -85,7 +84,6 @@ class App extends Component {
               return null;
             }}
           />
-          <Route path="/about" render={() => <AboutMe />} />
           <Route path="/resume" render={() => <Resume />} />
           <Route path="/work" render={() => <WorkContainer />} />
           <Route path="/openhouse" render={() => <OpenHouse />} />
